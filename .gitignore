@@ -1,0 +1,43 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.sqlite3
+*.db
+media/
+staticfiles/
+static_root/
+.env
+*.log
+celerybeat-schedule
+
+# Node / Frontend
+node_modules/
+dist/
+.cache/
+*.local
+
+# Vite
+frontend/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Railway / Vercel
+.vercel/
