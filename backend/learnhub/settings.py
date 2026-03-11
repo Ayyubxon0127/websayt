@@ -174,4 +174,13 @@ else:
         default='http://localhost:3000,http://127.0.0.1:3000'
     ).split(',')
 
+CSRF_TRUSTED_ORIGINS = [
+    origin.strip()
+    for origin in config(
+        'CSRF_TRUSTED_ORIGINS',
+        default='https://*.up.railway.app,https://*.railway.app'
+    ).split(',')
+    if origin.strip()
+]
+
 CORS_ALLOW_CREDENTIALS = True
